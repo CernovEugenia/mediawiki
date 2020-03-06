@@ -1,0 +1,4 @@
+---
+- hosts: mediawiki
+  roles:
+    - { role: filesystem, tags: filesystem }
